@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    /*border: 1px solid;*/
 }
 
 body {
@@ -29,7 +28,28 @@ body {
     text-indent: -3000px;
 }
 
+.leia-mais p {
+    padding: 10px 10px 5px 10px;
+}
+
+.leia-mais h3 {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    text-transform: none;
+}
+
 /* Barra de Navegação */
+
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
 
 ul {
     margin: 0;
@@ -154,6 +174,7 @@ h2 {
 }
 
 /* Formatando formulários */
+
 label {
     display: block;
     cursor: pointer;
@@ -165,6 +186,7 @@ input {
     padding: 5px;
     width: 125px;
 }
+
 input.submit {
     width: 80px;
     color: #fff;
@@ -195,9 +217,38 @@ h3 {
     background: #de003e;
 }
 
-.destaque h3 {
-    background: b10333;
-    color: #fff
+/* Formatando lista de notícias */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+    font-size: 0.7em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
 }
 
 /* Rodapé */
